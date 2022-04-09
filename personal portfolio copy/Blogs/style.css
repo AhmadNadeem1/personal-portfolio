@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+/* Now For Blogs  */
+#blg_1 {
+          background-color: #0d0d0d;
+          user-select: none;
+          font-size: 20px;
+     
+}
+.centered {
+          position: absolute;
+          top: 10%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+}
+@media(max-width:760px){
+          #blg_1{
+                    font-size:100%;
+          }     
+}
+.Head{
+        font-family: 'Open Sans',
+        sans-serif;
+        color: purple;
+}
+.para{
+          font-family: 'Chewy',
+          cursive;
+          color:white;
+}   
+/* #blog{
+        background-image: url("./for_blog1.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        height: 2100px;
+        width: 2500px;
+} */
